@@ -19,9 +19,7 @@ namespace ConsoleApplication1
             int n = arr.Length;
             int max = Arrayinput(arr);
             for (int i = 0; i < n - 1; i++)
-            {
-                
-                    swap_function(ref arr[i],ref arr[i+1]);
+            {    swap_function(ref arr[i],ref arr[i+1]);
                     k++;
                 if (max < Arrayinput(arr)) {
                     max = Arrayinput(arr);
